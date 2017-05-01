@@ -414,7 +414,7 @@ html,body{
 
 @media screen and ( max-width: 480px){
 #top-bor .logo a > img { width: 75%; height: 75%; }
-#top-bor{ height: 150px; }
+#top-bor{ height: 130px; }
 .logo{ margin-top: 15px; }
 .scroll_list,.mail,.name_cover,.name,.bg_block1{ visibility: hidden; }
 .bg_block img{ width: 90%; height: 90%; }	
@@ -427,9 +427,11 @@ html,body{
 .left_content{ width: 50%; height: 700px; top: 2%; bottom: 20%;}
 .anzo_line img{ width: 400%; height: 400%; }
 .wind_line{ left: 250px; }
-.right_content{ right: initial; left: 5%; top: 230px;  /*height: 400*/}
-.about_title{ margin-bottom: 20px; }
-.about_content{ font-size: 20px; width: 150px; line-height: 30px; }
+.right_content{ right: initial; left: 5%; top: 230px;  }
+.about_title{ margin-bottom: 20px; font-size: 30px;}
+.about_content{ font-size: 16px; width: 120px; line-height: 30px; }
+.about_content_cover{ top: 100px; height: 200px; }
+@keyframes about_content_cover{ 50%{ width: 120px; } }
 .line_scroll2{ top: 630px; right: 50%; }
 .work_block{ margin-right: 5%; margin-bottom: 10%; width: 90%; }
 .work_text{ width: 90%; }
