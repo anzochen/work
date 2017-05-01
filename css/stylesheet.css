@@ -436,7 +436,7 @@ html,body{
 .work_block{ margin-right: 5%; margin-bottom: 10%; width: 90%; }
 .work_text{ width: 90%; }
 .work{ margin-left: 8%; }
-.work_text,.work_text .time{ font-size: 18px; }
+.work_text,.work_text .time{ font-size: 16px; }
 .work_text .time{ right: -10%; }
 
 }
@@ -447,7 +447,10 @@ html,body{
 @media screen and ( max-width: 320px){
 .container1,.container2{ height: 568px;  }	
 .line_scroll{ top: 500px; }
+.bg_block2{ bottom: 200px; }
+.line_scroll{ top: 78%; }
 .anzo_line img{ width: 890%; height: 890%; }
+.anzo_line{ bottom: 180px; }
 .wind_line{ left: 230px; }
 
 }
