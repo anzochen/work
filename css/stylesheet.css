@@ -402,7 +402,6 @@ html,body{
 	.right_content{ right: 180px; top: 220px;  }
 	.line_scroll2{ top: 800px; }
 	.container1,.container2{ height: 1000px;  }
-	.container3{ /*height: 100%;*/ }
 	.container_top{ height: 200px; }
 	.work{ margin-left: 14%; }
 	.work_block{  width: 250px; }
@@ -411,15 +410,17 @@ html,body{
 
 
 @media screen and ( max-width: 480px){
-#top-bor .logo a > img { width: 90%; height: 90%; }
+#top-bor .logo a > img { width: 75%; height: 75%; }
+#top-bor{ height: 150px; }
+.logo{ margin-top: 15px; }
 .scroll_list,.mail,.name_cover,.name,.bg_block1{ visibility: hidden; }
-.bg_block img{ width: 95%; height: 95%; }	
+.bg_block img{ width: 90%; height: 90%; }	
 .bg_block{ top: 30%; left: 5%;}
 .line_face2 img{ width: 90%; height: 90%; }
-.line_face2{ top: 20%; left: 5%;}
-.line_face1{ width: 80%; height: 80%; left: 12%; top: 20%;}
+.line_face2{ top: 15%; left: 5%;}
+.line_face1{ width: 80%; height: 80%; left: 12%; top: 17%;}
 .container1,.container2{ height: 700px;  }
-.line_scroll{ top: 600px; }
+.line_scroll{ top: 80%; }
 .left_content{ width: 50%; height: 700px; top: 2%; bottom: 20%;}
 .anzo_line img{ width: 400%; height: 400%; }
 .wind_line{ left: 250px; }
