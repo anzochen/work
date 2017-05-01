@@ -402,6 +402,7 @@ html,body{
 	.right_content{ right: 180px; top: 220px;  }
 	.line_scroll2{ top: 800px; }
 	.container1,.container2{ height: 1000px;  }
+	.container2{ overflow: hidden; }
 	.container_top{ height: 200px; }
 	.work{ margin-left: 14%; }
 	.work_block{  width: 250px; }
